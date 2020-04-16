@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("~/gcloud-keys.json")
+  credentials = file("~/.gcloud-keys.json")
   project     = "tf-gcp-interview"
-  region      = "eu-north1"
+  region      = "europe-north1"
 }
